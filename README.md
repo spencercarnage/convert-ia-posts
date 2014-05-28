@@ -5,7 +5,7 @@ This is Node.js command-line utility that is used to convert content from
 Clone the repo and CD into the cloned directory:
 
 ```
-git clone https://github.com/spencercarnage/convert-ia-posts/ && cd convert-ia-posts
+git clone git://github.com/spencercarnage/convert-ia-posts/ && cd convert-ia-posts
 ```
 
 Install the dependencies:
@@ -15,9 +15,7 @@ npm i
 ```
 
 Run `npm link` from inside the new repo. This will give you the command-line 
-interface `convert-ia`.
-
-There are only two command-line arguments and both are required.
+interface `convert-ia`. There are only two command-line arguments and both are required.
 
 ```
 -s, --source path/to/dir/of/content/to/convert
